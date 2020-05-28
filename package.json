@@ -1,0 +1,19 @@
+{
+  "name": "fp-zoomingo-kim2000",
+  "version": "1.0.0",
+  "description": "_Special thanks to Andrew Fitz Gibbon for this assignment._",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cs.washington.edu/cse154-20sp-students/fp-zoomingo-kim2000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
