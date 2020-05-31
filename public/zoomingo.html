@@ -8,5 +8,27 @@
   </head>
 
   <body>
+    <form id="input-form">
+      <div>
+        <label for="name">Enter your name: </label>
+        <input id="name" name="name" type="text">
+      </div>
+      <div>
+        <label for="size-select">Choose a board size:</label>
+        <select name="size" id="size-select">
+          <option value="" disabled selected>Select a size</option>
+          <option value=3>3x3</option>
+          <option value=5>5x5</option>
+          <option value=7>7x7</option>
+          <option value=9>9x9</option>
+        </select>
+      </div>
+      <button id="new-game">New Game</button>
+      <button id="reset-btn">Reset</button>
+      <button id="resume-btn">Resume Game?</button>
+    </form>
+    <p id='error'></p>
+    <div id="board"></div>
+    <button id="bingo">Bingo!</button>
   </body>
 </html>

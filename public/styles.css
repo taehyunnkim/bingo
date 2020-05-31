@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+form {
+  margin-top: 100px;
+}
+
+form div {
+  margin: 20px;
+}
+
+button {
+  margin: 20px 10px;
+}
+
+.square {
+  border: 1px solid black;
+  height: 50px;
+  flex: auto;
+}
+
+#board {
+  max-width: 1000px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+#board > div {
+  display: flex;
+  flex-direction: row;
+}
+
+#error {
+  color: red;
+}
